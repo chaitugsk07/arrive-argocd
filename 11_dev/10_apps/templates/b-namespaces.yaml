@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     repoURL: {{ .Values.spec.source.repoURL }}
-    path: 11_dev/150-namespaces
+    path: 11_dev/b-namespaces
     targetRevision: {{ .Values.spec.source.targetRevision }}
   destination:
     server: {{ .Values.spec.destination.server }}
